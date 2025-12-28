@@ -1,0 +1,82 @@
+# Company Profile for Policy Generation
+
+company:
+  name: "Acme Healthcare Inc."
+  legal_entity: "Acme Healthcare Inc., a Delaware Corporation"
+  industry: "Healthcare"
+  
+# Regulatory applicability
+compliance:
+  is_hipaa_covered_entity: true
+  is_hipaa_business_associate: false
+  gdpr_applicable: true  # Has EU customers/employees
+  soc2_required: true
+  iso27001_certified: false
+
+# Organization details
+organization:
+  employee_count: 200
+  locations:
+    - "New York, USA (HQ)"
+    - "London, UK"
+  departments:
+    - Engineering
+    - Customer Support
+    - HR
+    - Finance
+
+# Data processing
+data:
+  types_processed:
+    - "Patient PHI (medical records, diagnoses, treatment)"
+    - "Employee PII (names, SSN, addresses)"
+    - "Customer payment data (credit cards)"
+    - "Insurance claims"
+  data_subjects:
+    - "Patients (US and EU)"
+    - "Employees"
+    - "Vendors"
+  
+# Infrastructure
+systems:
+  cloud_providers:
+    - "AWS (us-east-1, eu-west-1)"
+  applications:
+    - "Epic EHR (patient records)"
+    - "Salesforce (CRM)"
+    - "Workday (HR)"
+    - "Stripe (payments)"
+  security_controls:
+    - "MFA enabled for all users"
+    - "AES-256 encryption at rest"
+    - "TLS 1.3 in transit"
+    - "SIEM: Splunk"
+
+# Key contacts
+contacts:
+  dpo:
+    name: "Jane Doe"
+    email: "dpo@acmehealthcare.com"
+    phone: "+1-555-0100"
+  ciso:
+    name: "John Smith"
+    email: "ciso@acmehealthcare.com"
+  privacy_officer:
+    name: "Jane Doe"
+    email: "privacy@acmehealthcare.com"
+  legal:
+    name: "Sarah Johnson"
+    email: "legal@acmehealthcare.com"
+
+# Vendors (for third-party risk)
+vendors:
+  - name: "AWS"
+    service: "Cloud infrastructure"
+    has_baa: true
+    soc2_certified: true
+  - name: "Epic Systems"
+    service: "EHR"
+    has_baa: true
+  - name: "Stripe"
+    service: "Payment processing"
+    pci_compliant: true

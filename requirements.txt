@@ -1,0 +1,8 @@
+deepagents
+langchain-openai
+tavily-python
+fastapi
+uvicorn
+python-dotenv
+pyyaml
+langsmith

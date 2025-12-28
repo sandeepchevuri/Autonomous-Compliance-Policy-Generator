@@ -1,0 +1,49 @@
+# -------------------------
+# Python / Virtual Environment
+# -------------------------
+venv/
+.env
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -------------------------
+# DeepAgents Workspace Files
+# (Contains generated policies, research, drafts, versions)
+# -------------------------
+workspace/
+!workspace/.gitkeep
+
+# -------------------------
+# Logs
+# -------------------------
+*.log
+logs/
+
+# -------------------------
+# IDE / Editor Files
+# -------------------------
+.vscode/
+.idea/
+.DS_Store
+
+# -------------------------
+# Cache & Temp
+# -------------------------
+.cache/
+tmp/
+*.tmp
+
+# -------------------------
+# Build / Distribution
+# -------------------------
+dist/
+build/
+*.egg-info/
+
+# -------------------------
+# OS Specific
+# -------------------------
+Thumbs.db
+Desktop.ini
